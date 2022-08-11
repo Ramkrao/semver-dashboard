@@ -24,7 +24,13 @@ class Summary extends React.Component {
   // execute the code 
   componentDidMount() {
       fetch(
-        "https://api-bmn64hwmoa-ts.a.run.app/release")
+        "https://api-bmn64hwmoa-ts.a.run.app/release", {
+          method: 'GET',
+          headers: {
+            Accept: 'application/json',
+            'Content-Type': 'application/json'
+          }
+        })
           .then((res) => res.json())
           .then((json) => {
             let transformed_json = Transform(json);
