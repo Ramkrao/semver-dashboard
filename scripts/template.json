@@ -1,0 +1,30 @@
+{
+  "dtaas": {
+    "peak_hour_start": 2,
+    "peak_hour_end": 10,
+    "max_limit_per_hour": 100
+  },
+  "bif": {
+    "peak_hour_start": 2,
+    "peak_hour_end": 10,
+    "max_limit_per_hour": 80
+  },
+  "sobih": {
+    "max_limit_overall": 500
+  },
+  "adp": {
+    "total_capacity_tps": 100000,
+    "average_throughput_tps": 60000
+  },
+  "interconnect": {
+    "peak_hour_start": 2,
+    "peak_hour_end": 10,
+    "max_bytes_per_hour": 5400000000000
+  },
+  "default": {
+    "file_count": 1,
+    "avg_file_size_in_mbs": 250,
+    "avg_number_of_sensitive_fileds":  2,
+    "avg_number_of_adp_transformations": 1000000
+  }
+}

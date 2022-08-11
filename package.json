@@ -1,0 +1,70 @@
+{
+  "name": "semver-dashboard",
+  "version": "0.1.0",
+  "homepage": "https://pages.github.service.anz/fixathon/semver-dashboard/",
+  "private": true,
+  "dependencies": {
+    "@anz/accordion": "^2.0.0",
+    "@anz/bubble": "^1.1.3",
+    "@anz/button": "^1.5.1",
+    "@anz/date-field": "^1.9.2",
+    "@anz/footer": "^1.2.2",
+    "@anz/grid": "^1.1.0",
+    "@anz/header": "^1.1.0",
+    "@anz/markdown-renderer": "^1.1.4",
+    "@anz/section": "^1.2.0",
+    "@anz/select-field": "^1.22.3",
+    "@anz/styles-global": "^1.3.0",
+    "@anz/table": "^2.1.0",
+    "@anz/text": "^1.17.2",
+    "@anz/text-field": "^1.12.2",
+    "@anz/tooltip": "^1.2.16",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "formik": "^2.2.9",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-to-pdf": "^0.0.14",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "resolutions": {
+    "//": "See https://github.com/facebook/create-react-app/issues/11773",
+    "react-error-overlay": "6.0.9"
+  }
+}

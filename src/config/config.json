@@ -1,0 +1,12 @@
+{
+	"JIRA": {
+		"CREATE_ISSUE_URL": "https://jira.service.anz/secure/CreateIssueDetails!init.jspa?",
+		"PID": "67927",
+		"ISSUE_TYPE": "3",
+    "SUMMARY": "Frontdoor Request - New Ingestion Request",
+		"DESCRIPTION": 
+      "*Source Extract Details*\n\n\n\n\n||Frequency||No. of File(s)||File Size in MB||No. of Restricted Field(s)||Expected Yearly Growth||\n|Daily|{{daily.numFiles}}|{{daily.fileSize}}|{{daily.numRestricted}}|{{daily.yearlyGrowth}}|\n|Weekly|{{weekly.numFiles}}|{{weekly.fileSize}}|{{weekly.numRestricted}}|{{weekly.yearlyGrowth}}|\n|Monthly|{{monthly.numFiles}}|{{monthly.fileSize}}|{{monthly.numRestricted}}|{{monthly.yearlyGrowth}}|",
+		"ASSIGNEE": "renganr1",
+		"EPIC_ID": "EDL-559"
+	}
+}
