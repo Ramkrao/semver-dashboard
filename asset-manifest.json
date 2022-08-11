@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/fixathon/semver-dashboard/static/css/main.e6c13ad2.css",
+    "main.js": "/fixathon/semver-dashboard/static/js/main.68467cd3.js",
+    "static/js/236.4dc34761.chunk.js": "/fixathon/semver-dashboard/static/js/236.4dc34761.chunk.js",
+    "static/js/703.06409062.chunk.js": "/fixathon/semver-dashboard/static/js/703.06409062.chunk.js",
+    "static/js/973.ef43491e.chunk.js": "/fixathon/semver-dashboard/static/js/973.ef43491e.chunk.js",
+    "static/media/MyriadPro-It.woff": "/fixathon/semver-dashboard/static/media/MyriadPro-It.cbc0c77597d52d057db5.woff",
+    "static/media/MyriadPro-SemiboldIt.woff": "/fixathon/semver-dashboard/static/media/MyriadPro-SemiboldIt.b97e97513c3fde7373a5.woff",
+    "static/media/MyriadPro-LightIt.woff": "/fixathon/semver-dashboard/static/media/MyriadPro-LightIt.d773fc5d9b395172056f.woff",
+    "static/media/MyriadPro-Regular.woff": "/fixathon/semver-dashboard/static/media/MyriadPro-Regular.b4cd57a0542bc3ae2ecf.woff",
+    "static/media/MyriadPro-Semibold.woff": "/fixathon/semver-dashboard/static/media/MyriadPro-Semibold.d3afcad5d64e1f3e5a71.woff",
+    "static/media/MyriadPro-Light.woff": "/fixathon/semver-dashboard/static/media/MyriadPro-Light.767de7bc6f24c92d90b7.woff",
+    "static/media/MyriadPro-It.woff2": "/fixathon/semver-dashboard/static/media/MyriadPro-It.1f3c736a3dc58511bab7.woff2",
+    "static/media/MyriadPro-SemiboldIt.woff2": "/fixathon/semver-dashboard/static/media/MyriadPro-SemiboldIt.502495c3256aae34d6ef.woff2",
+    "static/media/MyriadPro-LightIt.woff2": "/fixathon/semver-dashboard/static/media/MyriadPro-LightIt.8e301aada34f5985074d.woff2",
+    "static/media/MyriadPro-Regular.woff2": "/fixathon/semver-dashboard/static/media/MyriadPro-Regular.38d7c6cb06175162fdb6.woff2",
+    "static/media/MyriadPro-Semibold.woff2": "/fixathon/semver-dashboard/static/media/MyriadPro-Semibold.c853b8eeb90c21e9fc3f.woff2",
+    "static/media/MyriadPro-Light.woff2": "/fixathon/semver-dashboard/static/media/MyriadPro-Light.4b32cab9ae2aec2dd9bd.woff2",
+    "static/media/anz-logo.svg": "/fixathon/semver-dashboard/static/media/anz-logo.d4532b321f076e9bafc63c5f3eb83c81.svg",
+    "index.html": "/fixathon/semver-dashboard/index.html",
+    "main.e6c13ad2.css.map": "/fixathon/semver-dashboard/static/css/main.e6c13ad2.css.map",
+    "main.68467cd3.js.map": "/fixathon/semver-dashboard/static/js/main.68467cd3.js.map",
+    "236.4dc34761.chunk.js.map": "/fixathon/semver-dashboard/static/js/236.4dc34761.chunk.js.map",
+    "703.06409062.chunk.js.map": "/fixathon/semver-dashboard/static/js/703.06409062.chunk.js.map",
+    "973.ef43491e.chunk.js.map": "/fixathon/semver-dashboard/static/js/973.ef43491e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.68467cd3.js"
+  ]
+}
