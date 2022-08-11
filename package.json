@@ -1,7 +1,7 @@
 {
   "name": "semver-dashboard",
   "version": "0.1.0",
-  "homepage": "https://pages.github.service.anz/fixathon/semver-dashboard/",
+  "homepage": "https://ramkrao.github.io/semver-dashboard/",
   "private": true,
   "dependencies": {
     "@anz/accordion": "^2.0.0",

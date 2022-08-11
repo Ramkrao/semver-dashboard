@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
   return (
-    <BrowserRouter basename='/fixathon/semver-dashboard'>
+    <BrowserRouter basename='/semver-dashboard'>
       <Fragment>
         <div className="App">
           <Header />
