@@ -5,9 +5,7 @@ import Text from '@anz/text'
 import Section from '@anz/section'
 import Bubble from '@anz/bubble'
 
-import {Transform,
-  GetStatusType,
-  GetOutlineColor} from './Utils'
+import {Transform} from './Utils'
 
 class Summary extends React.Component {
   // Constructor 
@@ -23,22 +21,27 @@ class Summary extends React.Component {
   // ComponentDidMount is used to
   // execute the code 
   componentDidMount() {
-      fetch(
-        "https://api-bmn64hwmoa-ts.a.run.app/release", {
-          method: 'GET',
-          headers: {
-            Accept: 'application/json',
-            'Content-Type': 'application/json'
-          }
-        })
-          .then((res) => res.json())
-          .then((json) => {
-            let transformed_json = Transform(json);
-            this.setState({
-              items: transformed_json,
-              DataisLoaded: true
-            });
-          })
+    fetch(
+      "https://api-bmn64hwmoa-ts.a.run.app/release", {
+        method: 'GET',
+        headers: {
+          Accept: 'application/json',
+          'Content-Type': 'application/json'
+        }
+      })
+      .then((res) => res.json())
+      .then((json) => {
+        fetch(
+          "https://gist.githubusercontent.com/Ramkrao/d2258ad197cfea8d5c12da758add66dc/raw/f947b14c2a425384c92b72c725d8834fbf4858ab/gistfile1.txt")
+            .then((res) => res.json())
+            .then((resp) => {
+              let transformed_json = Transform(json, resp);
+              this.setState({
+                items: transformed_json,
+                DataisLoaded: true
+              });
+            })
+      })
   }
 
   render() {
@@ -50,7 +53,7 @@ class Summary extends React.Component {
             <AnzCol xs={12}>
               <div style={{"margin": "16px 0"}}>
                 <Section>
-                  <Text heading>Summary - Application Versions</Text>
+                  <Text heading>Mx Versioner - Application Versions</Text>
                 </Section>
               </div>
               <div style={{"margin": "16px 0"}}>
@@ -65,13 +68,14 @@ class Summary extends React.Component {
                           <AnzCol xs={12} md={2} key={e.env}>
                             <Bubble
                               id={e.env}
-                              percentage={e.version}
+                              percentage='100'
                               bubbleText={e.version}
                               label={e.env}
                               bubbleSize={125}
                               labelPosition='top'
-                              statusType={GetStatusType(e.value)}
-                              outLineColor={GetOutlineColor(e.value)}
+                              statusText={e.version}
+                              statusType={e.status}
+                              outLineColor={e.color}
                             />
                           </AnzCol>
                         ))}
