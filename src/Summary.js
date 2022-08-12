@@ -32,7 +32,7 @@ class Summary extends React.Component {
       .then((res) => res.json())
       .then((json) => {
         fetch(
-          "https://gist.githubusercontent.com/Ramkrao/d2258ad197cfea8d5c12da758add66dc/raw/f947b14c2a425384c92b72c725d8834fbf4858ab/gistfile1.txt")
+          "https://gist.githubusercontent.com/Ramkrao/d2258ad197cfea8d5c12da758add66dc/raw/6105f65e1a8c39604b3eb46fb8476993e41ec75d/gistfile1.txt")
             .then((res) => res.json())
             .then((resp) => {
               let transformed_json = Transform(json, resp);
