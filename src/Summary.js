@@ -69,8 +69,9 @@ class Summary extends React.Component {
                             <Bubble
                               id={e.env}
                               percentage='100'
-                              bubbleText={e.version}
-                              label={e.env}
+                              bubbleText={e.env}
+                              label={e.version}
+                              labelFontSize={20}
                               bubbleSize={125}
                               labelPosition='top'
                               statusText={e.version}
