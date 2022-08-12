@@ -65,14 +65,14 @@ class Summary extends React.Component {
                           <Text heading="4">{row.repo_name}</Text>
                         </AnzCol>
                         {row.versions.map((e) => (
-                          <AnzCol xs={12} md={2} key={e.env}>
+                          <AnzCol xs={12} md={1} key={e.env}>
                             <Bubble
                               id={e.env}
                               percentage='100'
                               bubbleText={e.env}
                               label={e.version}
                               labelFontSize={20}
-                              bubbleSize={125}
+                              bubbleSize={100}
                               labelPosition='top'
                               statusText={e.version}
                               statusType={e.status}

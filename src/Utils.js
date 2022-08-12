@@ -42,9 +42,10 @@ function Transform(val, repo) {
       v = el.release_version;
       if (envObj.length > 0) {
         v = getHigherVersion(envObj[0].version, el.release_version);
-        versions.pop({"env": el.env_name, "version": v});
+        let filteredVersion = versions.filter(a => a.env !== el.env_name);
+        // versions.pop({"env": el.env_name, "version": v});
+        versions = filteredVersion;
       }
-      console.log(element, el.env_name, baseVersion[0].version, v);
       versions.push({
         "env": el.env_name,
         "version": v,
